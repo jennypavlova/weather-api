@@ -1,5 +1,5 @@
 {
-  "name": "restful",
+  "name": "weather-api",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -12,6 +12,5 @@
   },
   "version": "1.0.0",
   "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  "author": "Jenny Pavlova"
 }
