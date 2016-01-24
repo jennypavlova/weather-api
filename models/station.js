@@ -9,10 +9,5 @@ var stationSchema = mongoose.Schema({
 	temperature: Number
 });
 
-// var Stations = restful.model('stations', StationSchema);
-// Stations.methods(['get','put', 'post', 'delete']);
-// Stations.register(app, '/api/stations');
-
 //Return model
-
-module.exports = restful.model('Stations', stationSchema);
+module.exports = restful.model('Station', stationSchema);

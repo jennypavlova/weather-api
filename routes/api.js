@@ -4,10 +4,10 @@ var router = express.Router();
 
 //Models
 var Station = require('../models/station')
-
+  
 //Routes
-Station.methods(['get', 'put', 'post', 'delete']);
-Station.register(router, '/stations');
+Station.methods(['get']);
+Station.register(router, '/station');
 
 //Return router
 module.exports = router;

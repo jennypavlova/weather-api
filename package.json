@@ -2,10 +2,12 @@
   "name": "weather-api",
   "main": "server.js",
   "dependencies": {
+    "async": "^1.5.2",
     "body-parser": "^1.14.2",
     "express": "^4.13.4",
     "mongoose": "^4.3.7",
-    "node-restful": "^0.2.5"
+    "node-restful": "^0.2.5",
+    "request": "^2.67.0"
   },
   "scripts": {
     "start": "node server.js"
