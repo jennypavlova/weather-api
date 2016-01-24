@@ -1,0 +1,17 @@
+{
+  "name": "restful",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.3.7",
+    "node-restful": "^0.2.5"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
