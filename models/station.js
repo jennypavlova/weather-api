@@ -4,9 +4,10 @@ var mongoose = restful.mongoose;
 
 //Schema
 var stationSchema = mongoose.Schema({
-	name: String,
-	city: String,
-	temperature: Number
+  city: String,
+	temperature: Number,
+  lon: Number,
+  lat: Number
 });
 
 //Return model

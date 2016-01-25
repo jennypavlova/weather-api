@@ -16,3 +16,6 @@ app.use('/api', require('./routes/api'));
 // Start server
 app.listen(3000);
 console.log("API is running at port 3000");
+
+// Start cronjob
+require("./cronjob");
