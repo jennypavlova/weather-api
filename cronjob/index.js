@@ -17,6 +17,9 @@ var cities = [{
 }, {
   name: "Paris",
   country: "fr"
+}, {
+  name: "Varna",
+  country: "bg"
 }];
 var weatherApiKey = "44db6a862fba0b067b1930da0d769e98";
 //http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=44db6a862fba0b067b1930da0d769e98
@@ -62,4 +65,4 @@ setInterval(function () {
       console.log("done");
     });
   });
-}, 5000);
+}, 30000);
