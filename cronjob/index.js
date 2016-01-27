@@ -65,4 +65,4 @@ setInterval(function () {
       console.log("done");
     });
   });
-}, 30000);
+}, 120000);
