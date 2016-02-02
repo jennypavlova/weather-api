@@ -5,7 +5,10 @@ var Station = require('../models/station');
 var cities = [{
   name: "London",
   country: "uk"
-}, {
+},{
+  name: "Manchester",
+  country: "en"
+},{
   name: "Sofia",
   country: "bg"
 }, {
@@ -13,6 +16,9 @@ var cities = [{
   country: "us"
 }, {
   name: "Berlin",
+  country: "de"
+},{
+  name: "Munich",
   country: "de"
 }, {
   name: "Hamburg",
@@ -22,6 +28,9 @@ var cities = [{
   country: "de"
 },{
   name: "Vien",
+  country: "au"
+},{
+  name: "Salzburg",
   country: "au"
 },{
   name: "Amsterdam",
@@ -42,8 +51,17 @@ var cities = [{
   name: "Rome",
   country: "it"
 },{
-  name: "Milano",
+  name: "Milan",
   country: "it"
+},{
+  name: "Venice",
+  country: "it"
+},{
+  name: "Beijing",
+  country: "ch"
+},{
+  name: "Madrid",
+  country: "sp"
 },{
   name: "Plovdiv",
   country: "fr"
