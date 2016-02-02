@@ -15,7 +15,37 @@ var cities = [{
   name: "Berlin",
   country: "de"
 }, {
+  name: "Hamburg",
+  country: "de"
+},{
+  name: "Hanover",
+  country: "de"
+},{
+  name: "Vien",
+  country: "au"
+},{
+  name: "Amsterdam",
+  country: "nl"
+},{
+  name: "Moskaw",
+  country: "ru"
+},{
+  name: "Tokyo",
+  country: "jp"
+},{
   name: "Paris",
+  country: "fr"
+},{
+  name: "Leon",
+  country: "fr"
+},{
+  name: "Rome",
+  country: "it"
+},{
+  name: "Milano",
+  country: "it"
+},{
+  name: "Plovdiv",
   country: "fr"
 }, {
   name: "Varna",
