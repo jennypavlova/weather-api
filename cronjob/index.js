@@ -2,70 +2,8 @@ var request = require("request");
 var async = require("async");
 var Station = require('../models/station');
 
-var cities = [{
-  name: "London",
-  country: "uk"
-}, {
-  name: "Manchester",
-  country: "en"
-}, {
-  name: "Sofia",
-  country: "bg"
-}, {
-  name: "New York",
-  country: "us"
-}, {
-  name: "Berlin",
-  country: "de"
-}, {
-  name: "Munich",
-  country: "de"
-}, {
-  name: "Hamburg",
-  country: "de"
-},{
-  name: "Hanover",
-  country: "de"
-}, {
-  name: "Vien",
-  country: "au"
-}, {
-  name: "Salzburg",
-  country: "au"
-}, {
-  name: "Amsterdam",
-  country: "nl"
-}, {
-  name: "Moskaw",
-  country: "ru"
-}, {
-  name: "Tokyo",
-  country: "jp"
-}, {
-  name: "Paris",
-  country: "fr"
-}, {
-  name: "Leon",
-  country: "fr"
-}, {
-  name: "Rome",
-  country: "it"
-}, {
-  name: "Milan",
-  country: "it"
-}, {
-  name: "Venice",
-  country: "it"
-}, {
-  name: "Beijing",
-  country: "ch"
-}, {
-  name: "Plovdiv",
-  country: "fr"
-}, {
-  name: "Varna",
-  country: "bg"
-}];
+var cities = require('./stations.json');
+ 
 var weatherApiKey = "44db6a862fba0b067b1930da0d769e98";
 //http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=44db6a862fba0b067b1930da0d769e98
 
