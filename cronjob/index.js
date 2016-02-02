@@ -60,9 +60,6 @@ var cities = [{
   name: "Beijing",
   country: "ch"
 }, {
-  name: "Madrid",
-  country: "sp"
-}, {
   name: "Plovdiv",
   country: "fr"
 }, {
